@@ -18,7 +18,7 @@ const allPetsMockData = {
   petMockData2
 }
 
-// 
+// Apex Data
 const apexMockData = {
   legendName: 'Octane',
   legendPassive: 'Health Regeneration' 
@@ -27,7 +27,6 @@ const apexMockData = {
 const emptyMockData = {}
 
 const { db } = require('../src/models/index');
-const { all } = require('../src/routes/mainRoute');
 
 beforeAll(async () => {
   await db.sync();
