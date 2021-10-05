@@ -2,7 +2,7 @@
 
 require('dotenv').config();
 
-const DATABASE_URL = process.env.NODE_ENV === 'test' ? 'sqlite:memory' : process.env.HEROKU_POSTGRESQL_AQUA_URL;
+const DATABASE_URL = process.env.NODE_ENV === 'test' ? 'sqlite:memory' : process.env.DATABASE_URL;
 const { Sequelize, DataTypes } = require('sequelize');
 let sequelizeOptions = process.env.NODE_ENV === 'production'
   ? {
