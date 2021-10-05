@@ -8,11 +8,11 @@ Build a REST API using Express, by creating a proper series of endpoints that pe
 
 ### Author: Mark Thanadabouth
 
-### Collaborators: Alex W(Instructor), Heather B, Charlie F,
+### Collaborators: Alex W(Instructor), Heather B, Charlie F, Jeremy B, Phil M
 
 #### Links and Resources
-<!-- * [Deployed Link (devBranch)](https://markt-basic-express-server-dev.herokuapp.com/)
-* [Deployed Link (mainBranch)](https://mt-basic-express-server-prod.herokuapp.com/) -->
+* [Deployed Link (devBranch)](https://markt-basic-api-server-dev.herokuapp.com/)
+* [Deployed Link (mainBranch)](https://mt-basic-api-server-prod.herokuapp.com/)
 
 ### Setup
 
@@ -25,15 +25,17 @@ Build a REST API using Express, by creating a proper series of endpoints that pe
 Endpoints:
 - `/`
 > Hello Main Server
-- `/person?name=<insertName>`
-> Returns 'name' object 
+- `/pet`
+> Returns 'pet' object
+- `/apexlegend`
+> Returns 'apex character' object
 
 #### Tests
 - `npm test`
 
 
 ### UML
-<!-- > <img src="src/UML/401lab02_UML.jpg" width="300"/> -->
+> <img src="401lab03_UML.jpg" width="300"/>
 
 ### Reflections and Comments
 * Start date (10/02)
@@ -44,8 +46,8 @@ Name of feature: Express REST API
 
 Estimate of time needed to complete: 6 Hours
 
-Start time:
+Start time: 2pm(10/2)
 
-Finish time:
+Finish time: 7pm(10/4)
 
-Actual time needed to complete:
+Actual time needed to complete: 8 hours
